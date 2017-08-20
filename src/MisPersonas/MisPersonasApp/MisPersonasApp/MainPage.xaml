@@ -2,10 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MisPersonasApp"
+             BackgroundColor="#0078D7"
              x:Class="MisPersonasApp.MainPage">
-
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
+    <StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Entry Keyboard="Numeric" x:Name="IdNumber" TextColor="White" WidthRequest="200" Placeholder="Ingrese DNI"></Entry>
+            <Button Text="Buscar" Clicked="Button_Clicked"/>
+        </StackLayout>
+        <Image Source="search.png"/>
+    </StackLayout>
 </ContentPage>

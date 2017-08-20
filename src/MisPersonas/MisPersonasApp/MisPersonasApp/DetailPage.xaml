@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MisPersonasApp"
+             BackgroundColor="#0078D7"
+             x:Class="MisPersonasApp.DetailPage">
+    <StackLayout>
+        <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+            <Label x:Name="Nombre" TextColor="White" />
+            <Label x:Name="Direccion" TextColor="White" />
+            <Label x:Name="Localidad" TextColor="White" />
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Volver" Clicked="Back_Clicked"/>
+                <Button Text="Ver en mapa" Clicked="Map_Clicked" />
+            </StackLayout>
+        </StackLayout>
+        <Image Source="result.png"/>
+    </StackLayout>
+</ContentPage>
