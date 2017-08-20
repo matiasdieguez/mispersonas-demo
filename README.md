@@ -35,7 +35,7 @@
 - 3 - Listar datos en tabla Personas
 
 ## Demo 5 - Xamarin.Forms
-----------------------------------------------------------
+
 - 1 - Crear página con textbox de búsqueda
 - 2 - Crear página de detalle de MisPersonas, con boton Guardar
 - 3 - Crear listado de personas, con boton abir mapa
