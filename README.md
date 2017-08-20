@@ -1,6 +1,8 @@
 # mispersonas-demo
 
 ## Demo 1 - .NET Core
+- Mostrar en .NET CLI y Visual Studio Code
+- Mostrar sobre Windows y Mac
 - dotnet new console
 - code .
 - dotnet restore
@@ -11,14 +13,12 @@
 ## Demo 2 - NuGet
 
 - A partir de aca mostrar en VS
+- Crear un repositorio en GitHub
 - Hacer un paquete nuget para buscar personas
 - Buscar y generar online clase .NET en base a esquema Json de la AFIP
 
-- 1 - buscar si existe DNI (GET)
-- https://soa.afip.gob.ar/sr-padron/v2/personas/23456789
-
-- 2 - Buscar datos para el CUIT/CUIL devuelto, si existe (GET)
-- https://soa.afip.gob.ar/sr-padron/v2/persona/20234567897
+- 1 - buscar si existe DNI (GET) https://soa.afip.gob.ar/sr-padron/v2/personas/23456789
+- 2 - Buscar datos para el CUIT/CUIL devuelto, si existe (GET) https://soa.afip.gob.ar/sr-padron/v2/persona/20234567897
 
 ## Demo 3 - Sql Database y DataAccess
 
@@ -39,6 +39,5 @@
 - 1 - Crear página con textbox de búsqueda
 - 2 - Crear página de detalle de MisPersonas, con boton Guardar
 - 3 - Crear listado de personas, con boton abir mapa
-- 4 - Abrir link google maps
--   https://www.google.com.ar/maps/search/belgrano+1180,+lomas+de+zamora
+- 4 - Abrir link google maps https://www.google.com.ar/maps/search/belgrano+1180,+lomas+de+zamora
   
